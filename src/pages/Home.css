@@ -1,0 +1,10 @@
+.custom-transition {
+    transition: transform 1s ease; /* Transition duration of 1 second */
+  }
+  
+  .custom-transition:hover {
+    transform: scale(1.05); /* Card will scale up when hovered */
+  }
+  body{
+ font-size: larger;
+  }

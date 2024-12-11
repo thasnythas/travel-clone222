@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  
+    display: flex; /* Flexbox to align items */
+    justify-content: center; /* Center align navigation items */
+    position: relative; /* Allow for absolute positioning of child elements if needed */
+}
+
+nav {
+    width: 8000vmax; /* Full width of the container */
+    height: 90px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    background-color:darkolivegreen;
+    position: absolute;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none; /* Remove bullets */
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+ul li {
+    box-sizing: border-box;
+    color: black;
+    border-radius: 15px;
+    margin: 0 10px; /* Add spacing between items */
+    transition: background-color 0.3s; /* Smooth background-color transition */
+}
+
+ul li a {
+    text-decoration: none; /* Remove underline */
+    color: black;
+    padding: 10px 20px; /* Add padding for better clickable area */
+    display: block; /* Ensure the link takes up full area */
+}
+
+ul li a:hover {
+    cursor: pointer;
+    background-color:aquamarine
+}
